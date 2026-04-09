@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Homework #1 Webpage</title>
+        <link rel="icon" href="cats.jpg">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="hobby.html">Hobbies</a>
+        </nav>
+        
+        <h5>Here's a list of my hobbies.</h5>
+        
+        <div>
+            <ol>
+                <li>Rock Climbing</li>
+                <li>Programming</li>
+                <li>Running</li>
+            </ol>
+        </div>
+
+        <h6>I also like C# LINQ</h6>
+        <pre>
+            <code>
+                <del>
+                List&lt;Hobby&gt; topThreeHobbies = new List&lt;Hobby&gt;();
+
+                foreach (var hobby in hobbies)
+                {
+                    if (hobby.Rank &lt;= 3)
+                    {
+                        topThreeHobbies.Add(hobby);
+                    }
+                }
+                </del>
+                <mark>var topThreeHobbies = hobbies.Where(hobby =&gt; hobby.Rank &lt;= 3)</mark>
+            </code>
+        </pre>
+
+        <table>
+            <tr>
+                <th>Ranking</th>
+                <th>Hobby</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Rock Climbing</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Running</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Programming</td>
+            </tr>
+        </table>
+
+        <footer>
+            <p>Reilley Milne</p>
+        </footer>
+    </body>
+</html>

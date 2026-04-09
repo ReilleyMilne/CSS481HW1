@@ -1,0 +1,35 @@
+div#container
+{
+    display: flex;
+}
+
+div.box
+{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: background-color 2s;
+}
+
+div.red
+{
+    background-color:red;
+    transition: background-color 4s;
+}
+
+div.blue
+{
+    background-color:blue;
+    transition: background-color 1s;
+}
+
+div.green
+{
+    background-color:green;
+    transition: background-color 2s;
+}
+
+div#container:hover div.box
+{
+    background-color: pink;
+}
