@@ -113,29 +113,40 @@ footer
     font-size: 15px;
 }
 
-pre {
+pre
+{
     background-color: #383737;
     color: #fff7f7;
     padding: 10px;
-    overflow-x: auto;
     border-radius: 10px;
     font-family: monospace;
     overflow: hidden;
+    tab-size: 4;
 
     cursor: pointer;
+}
+
+code
+{
+    display: block;
+    text-align: left;
 }
 
 table
 {
     width: 100%;
     border-spacing: 0;
+    column-span: all;
+    column-count: 2;
+    text-align: center;
+    word-break: break-all;
+    table-layout: fixed;
 }
 
 th, td
 {
     border: 1px solid black;
     padding: 10px;
-    text-align: center;
 }
 
 th 

@@ -27,23 +27,16 @@
             </section>
 
             <section>
-                <h6>I also like C# LINQ</h6>
-                <pre>
-                    <code>
-                        <del>
-                        List&lt;Hobby&gt; topThreeHobbies = new List&lt;Hobby&gt;();
-
-                        foreach (var hobby in hobbies)
-                        {
-                            if (hobby.Rank &lt;= 3)
-                            {
-                                topThreeHobbies.Add(hobby);
-                            }
-                        }
-                        </del>
-                        <mark>var topThreeHobbies = hobbies.Where(hobby =&gt; hobby.Rank &lt;= 3)</mark>
-                    </code>
-                </pre>
+            <h6>I also like C# LINQ</h6>
+            <pre><code><del>List&lt;Hobby&gt; topThreeHobbies = new List&lt;Hobby&gt;();
+foreach (var hobby in hobbies)
+{
+    if (hobby.Rank &lt;= 3)
+    {
+        topThreeHobbies.Add(hobby);
+    }
+}</del>
+<mark>var topThreeHobbies = hobbies.Where(hobby =&gt; hobby.Rank &lt;= 3)</mark></code></pre>
             </section>
 
             <section>
