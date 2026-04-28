@@ -1,50 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <title>Homework #1 Webpage</title>
-        <link rel="icon" href="cats.jpg">
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="hobby.html">Hobbies</a></li>
-            </ul>
-        </nav>
-        
-        <div class="content">
-            <section class="about-me-section">
-                <div class="about-me">
-                    <h1>About Me.</h1>
-                    <ul>
-                        <li>I'm Canadian.</li>
-                        <li>I've lived in 3 different countries.</li>
-                        <li><strong>I have two kittens.</strong></li>
-                    </ul>
-                </div>
-            </section>
-
-            <section>
-                <h2>Here's one of my favorite quotes.</h2>
-                <p>In three words I can sum up everything I've learned about life: it goes on.<br><cite>- Robert Frost</cite></p>
-            </section>
-
-            <section>
-                <h3>Here's a picture of my cats.</h3>
-                <img src="cats.jpg" alt="Image of two cats.">
-            </section>
-
-            <section>
-                <h4>That's all that's about me.</h4>
-                <a href="hobby.html">Click here to view my hobbies.</a><br>
-            </section>
-
+        <div id="calculator">
+            <div id="output">
+                <input type="text" id="text-output" readonly>
+            </div>
+            <div id="input">
+                <table>
+                    <tr>
+                        <td><button>7</button></td>
+                        <td><button>8</button></td>
+                        <td><button>9</button></td>
+                        <td><button class="operator">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>4</button></td>
+                        <td><button>5</button></td>
+                        <td><button>6</button></td>
+                        <td><button class="operator">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>1</button></td>
+                        <td><button>2</button></td>
+                        <td><button>3</button></td>
+                        <td><button class="operator">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="clear">C</button></td>
+                        <td><button>0</button></td>
+                        <td><button class="operator">=</button></td>
+                        <td><button class="operator">/</button></td>
+                    </tr>
+                </table>
+            </div>
         </div>
-        
-        <footer>
-            <p>Reilley Milne</p>
-        </footer>
     </body>
 </html>
